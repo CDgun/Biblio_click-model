@@ -1,0 +1,41 @@
+.mostread{
+    border: 0.4rem solid $borderTopBooksColor;
+    border-radius: 1rem;
+    &__title{
+        font-size: 2rem;
+        padding: 1rem;
+        border-radius: 0.5rem 0.5rem 0 0;
+        background-color: $topbooksBackgroundColor;
+        color: $fontTopbookColor;
+    }
+}
+.allbooks{
+    border: 0.4rem solid $borderTopAuthorsColor;
+    border-radius: 1rem;
+    &__title{
+        font-size: 2rem;
+        padding: 1rem;
+        border-radius: 0.5rem 0.5rem 0 0;
+        background-color: $topauthorsBackgroundColor;
+        color: $fontTopAuthorColor;
+    }
+    &-nav{
+        display: flex;
+        flex-flow: row;
+        justify-content: space-around;;
+        background-color: $allbooksNavBackgroundColor;
+        padding: 1rem;
+        &__link{
+            color:$mainFontColor;
+            font-size:1rem;
+            font-weight: bold;
+            color:$fontTopAuthorColor;
+            padding: 0.5rem;
+            &:hover{
+                background-color: $allbooksNavHoverColor;
+                border-radius: 50%;
+                color: $allbooksHoverFontColor;
+            }
+        }
+    }
+}

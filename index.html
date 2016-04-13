@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Biblio</title>
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
+    <body>
+        <header class="header">
+            <div class="header-topbar">
+                <h1 aria-level="1" role="heading" class="hidden">BIBLIONLINE</h1>
+                <nav>
+                    <h2 role="heading" aria-level="2" class="hidden"> Title & search</h2>
+                    <ul class="header-topbar-menu">
+                        <li>
+                            <a href="index.html" class="header-topbar-menu__title">BIBLIONLINE</a>
+                        </li>
+                        <li class="header-topbar-menu__search">
+                            <div class="search">
+                                <form action="#" method="get">
+                                    <input type="search" placeholder="Rechercher un livre" name="the_search" class="menu__search">
+                                    <input type="submit" value="SEARCH" class="menu__submit">
+                                </form>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="nav-menu">
+                    <h2 role="heading" aria-level="2"class="hidden"> Main Navigation</h2>
+                    <ul>
+                        <li class="nav-menu__element">
+                            <a href="index.html" class="nav-menu__link nav-menu__link--active">Accueil</a>
+                        </li>
+                        <li class="nav-menu__element">
+                            <a href="html/livres.html" class="nav-menu__link">Livres</a>
+                        </li>
+                        <li class="nav-menu__element">
+                            <a href="html/auteurs.html" class="nav-menu__link">Auteurs</a>
+                        </li>
+                        <li class="nav-menu__element">
+                            <a href="html/editeurs.html" class="nav-menu__link">Editeurs</a>
+                        </li>
+                        <li class="nav-menu__element">
+                            <a href="html/contact.html" class="nav-menu__link">À propos</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header-connect">
+                <a href="#"class="header-connect__link">se connecter</a>
+                <p class="header-connect__or"> | </p>
+                <a href="#"class="header-connect__link">creer un compte</a>
+            </div>
+        </header>
+
+        <main class="wrapper">
+            <section class="topbooks">
+                <h3 role="heading" aria-level="3" class="topbooks__title">Le top des livres</h3>
+                <div class="list">
+                    <article class="list-books">
+                        <h4 class="list-books__title" role="heading" aria-level="4">Titre du livre</h4>
+                        <img src="assets/img/livre.jpg" alt="Image du livre" width="200" height="300" class="list-books__image">
+                        <p class="list-books__summary">
+                        Résumé&nbsp;:&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <a class="list-books__button"  href="showbooks.html">lire la suite</a>
+                    </article>
+
+                    <article class="list-books">
+                        <h4 class="list-books__title" role="heading" aria-level="4">Titre du livre</h4>
+                        <img src="assets/img/livre2.jpg" alt="Image du livre" width="200" height="300" class="list-books__image">
+                        <p class="list-books__summary">
+                        Résumé&nbsp;:&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <a class="list-books__button"  href="showbooks.html">lire la suite</a>
+                    </article>
+                </div>
+
+            </section>
+            <section class="lastbooks">
+                <h3 role="heading" aria-level="3" class="lastbooks__title">Les derniers livres ajoutés</h3>
+
+                <div class="list">
+                    <article class="list-books">
+                        <h4 class="list-books__title" role="heading" aria-level="4">Titre du livre</h4>
+                        <img src="assets/img/livre.jpg" alt="Image du livre" width="200" height="300" class="list-books__image">
+                        <p class="list-books__summary">
+                        Résumé&nbsp;:&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <a class="list-books__button"  href="showbooks.html">lire la suite</a>
+                    </article>
+
+                    <article class="list-books">
+                        <h4 class="list-books__title" role="heading" aria-level="4">Titre du livre</h4>
+                        <img src="assets/img/livre2.jpg" alt="Image du livre" width="200" height="300" class="list-books__image">
+                        <p class="list-books__summary">
+                        Résumé&nbsp;:&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <a class="list-books__button"  href="showbooks.html">lire la suite</a>
+                    </article>
+                </div>
+            </section>
+            <section class="topauthors">
+                <h3 role="heading" aria-level="3" class="topauthors__title">Auteurs du mois</h3>
+                <img src="assets/img/auteurs.jpg" alt="Image de l'auteur"  class="topauthors__image">
+                <a class="topauthors__button"  href="showauthors.html">lire la fiche de l'auteur</a>
+            </section>
+        </main>
+        <footer>
+            <section class="footer">
+                <h1 role="heading" aria-level="3" class="footer__WebTitle"> BIBLIONLINE </h1>
+                <h3 role="heading" aria-level="3" class="footer__title">Privacy</h3>
+                <h3 role="heading" aria-level="3" class="footer__title">Disclaimer</h3>
+                <h3 role="heading" aria-level="3" class="footer__title">Contact</h3>
+            </section>
+            <div class="subfooter">
+                <p class="subfooter__text">Copyright 2016.HEPL-student Corentin Delarbre.All rights reserved &copy;</p>
+            </div>
+        </footer>
+        <script src="scripts/scripts.js"></script>
+    </body>
+</html>

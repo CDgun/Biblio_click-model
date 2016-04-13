@@ -1,0 +1,67 @@
+.header{
+    width: 80%;
+    margin: 0 10%;
+    position: relative;
+    &-topbar{
+        background-color: $headerBackgroundColor;
+        &-menu{
+            width: 100%;
+            background: $headerTitleBackground;
+            padding: 5rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            &__title{
+                font-size: 5rem;
+                margin: 2rem;
+            }
+            &__search{
+                margin:5rem;
+            }
+        }
+    }
+    &-connect{
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 1.25rem;
+        padding: 1rem;
+        border-bottom: 0.5rem solid $borderConnectColor;
+        border-left: 0.5rem solid $borderConnectColor;
+        border-radius: 1rem;
+        &__link{
+            &:hover{
+                opacity: 0.5;
+            }
+        }
+        &__or{
+            display: inline;
+        }
+    }
+}
+.nav{
+    &-menu{
+        &__element{
+            display: inline-block;
+        }
+        &__link{
+            font-size: 2rem;
+            display: block;
+            padding: 2rem;
+            &--active{
+                font-size: 2rem;
+                display: block;
+                padding: 2rem;
+                background-color: $headerActiveColor;
+                color: $headerActiveFont;
+                &:hover{
+                    opacity: 0.5;
+                }
+            }
+            &:hover{
+                opacity: 0.5;
+            }
+        }
+    }
+}

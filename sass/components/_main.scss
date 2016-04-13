@@ -1,0 +1,75 @@
+main{
+    width: 80%;
+    margin: 0 10%;
+    padding: 3rem 0;
+    background-color: $mainBackgroundColor;
+    color: $mainFontColor;
+}
+.topbooks{
+    border: 0.4rem solid $borderTopBooksColor;
+    border-radius: 1rem;
+    &__title{
+        font-size: 2rem;
+        padding: 1rem;
+        border-radius: 0.5rem 0.5rem 0 0;
+        background-color: $topbooksBackgroundColor;
+        color: $fontTopbookColor;
+    }
+}
+.lastbooks{
+    border: 0.4rem solid $borderLastBooksColor;
+    border-radius: 1rem;
+    &__title{
+        font-size: 2rem;
+        padding: 1rem;
+        border-radius: 0.5rem 0.5rem 0 0;
+        background-color: $lastbooksBackgroundColor;
+        color: $fontLastbookColor;
+    }
+}
+.topauthors{
+    border: 0.4rem solid $borderTopAuthorsColor;
+    border-radius: 1rem;
+    &__title{
+        font-size: 2rem;
+        padding: 1rem;
+        border-radius: 0.5rem 0.5rem 0 0;
+        background-color: $topauthorsBackgroundColor;
+        color: $fontTopAuthorColor;
+    }
+    &__image{
+        width: 30rem;
+        height: auto;
+        border-radius: 3rem;
+        margin: 2rem;
+    }
+}
+.list{
+    display:flex;;
+    flex-flow: row;
+    justify-content:flex-start;;
+    &-books{
+        position: relative;
+        width: 20rem;
+        margin: 2rem;
+        &__title{
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: $baseFontColor;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            padding: 1rem 0;
+            text-align: center;
+            background-color: $BooksTitleBackgroundColor;
+        }
+        &__image{
+            width: 100%;
+            height: auto;
+        }
+        &__summary{
+            font-size: 1.25rem;
+            color:$mainFontColor;
+        }
+    }
+}
