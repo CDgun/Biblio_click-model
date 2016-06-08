@@ -1,75 +1,126 @@
-main{
-    width: 80%;
-    margin: 0 10%;
-    padding: 3rem 0;
-    background-color: $mainBackgroundColor;
-    color: $mainFontColor;
-}
-.topbooks{
-    border: 0.4rem solid $borderTopBooksColor;
-    border-radius: 1rem;
+.ongoinganime{
     &__title{
         font-size: 2rem;
-        padding: 1rem;
-        border-radius: 0.5rem 0.5rem 0 0;
-        background-color: $topbooksBackgroundColor;
-        color: $fontTopbookColor;
+        font-weight: bold;
+        padding: 1rem 2rem;
+        margin: 0 0 2rem 0 ;
+        color:$baseFontColor;
+        text-shadow: 0.25rem 0.25rem 0.5rem #000000;
+
+        background: rgba(255,3,62,1);
+        background: -moz-linear-gradient(left, rgba(255,3,62,1) 0%, rgba(109,0,25,1) 100%);
+        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,3,62,1)), color-stop(100%, rgba(109,0,25,1)));
+        background: -webkit-linear-gradient(left, rgba(255,3,62,1) 0%, rgba(109,0,25,1) 100%);
+        background: -o-linear-gradient(left, rgba(255,3,62,1) 0%, rgba(109,0,25,1) 100%);
+        background: -ms-linear-gradient(left, rgba(255,3,62,1) 0%, rgba(109,0,25,1) 100%);
+        background: linear-gradient(to right, rgba(255,3,62,1) 0%, rgba(109,0,25,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff033e', endColorstr='#6d0019', GradientType=1 );
+
+        border-radius: 29px 29px 29px 29px;
+        -moz-border-radius: 29px 29px 29px 29px;
+        -webkit-border-radius: 29px 29px 29px 29px;
+        border: 0px solid #000000;
+
     }
 }
-.lastbooks{
-    border: 0.4rem solid $borderLastBooksColor;
-    border-radius: 1rem;
+.lastanime{
     &__title{
         font-size: 2rem;
-        padding: 1rem;
-        border-radius: 0.5rem 0.5rem 0 0;
-        background-color: $lastbooksBackgroundColor;
-        color: $fontLastbookColor;
+        font-weight: bold;
+        padding: 1rem 2rem;
+        margin: 0 0 2rem 0 ;
+        color:$baseFontColor;
+        text-shadow: 0.25rem 0.25rem 0.5rem #000000;
+
+        background: rgba(0, 88, 194, 1);
+        background: -moz-linear-gradient(left, rgba(0, 88, 194, 1) 0%, rgba(0,21,107,1) 100%);
+        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0, 88, 194, 1)), color-stop(100%, rgba(0,21,107,1)));
+        background: -webkit-linear-gradient(left, rgba(0, 88, 194, 1) 0%, rgba(0,21,107,1) 100%);
+        background: -o-linear-gradient(left, rgba(0, 88, 194, 1) 0%, rgba(0,21,107,1) 100%);
+        background: -ms-linear-gradient(left, rgba(0, 88, 194, 1) 0%, rgba(0,21,107,1) 100%);
+        background: linear-gradient(to right, rgba(0, 88, 194, 1) 0%, rgba(0,21,107,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0058c2', endColorstr='#00156b', GradientType=1 );
+        border-radius: 29px 29px 29px 29px;
+        -moz-border-radius: 29px 29px 29px 29px;
+        -webkit-border-radius: 29px 29px 29px 29px;
+        border: 0px solid #000000;
     }
 }
-.topauthors{
-    border: 0.4rem solid $borderTopAuthorsColor;
-    border-radius: 1rem;
+.lastend{
     &__title{
         font-size: 2rem;
-        padding: 1rem;
-        border-radius: 0.5rem 0.5rem 0 0;
-        background-color: $topauthorsBackgroundColor;
-        color: $fontTopAuthorColor;
+        font-weight: bold;
+        padding: 1rem 2rem;
+        margin: 0 0 2rem 0 ;
+        color:$baseFontColor;
+        text-shadow: 0.25rem 0.25rem 0.5rem #000000;
+
+        background: rgba(4, 189, 32, 1);
+        background: -moz-linear-gradient(left, rgba(4, 189, 32, 1) 0%, rgba(5,105,0,1) 100%);
+        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(4, 189, 32, 1)), color-stop(100%, rgba(5,105,0,1)));
+        background: -webkit-linear-gradient(left, rgba(4, 189, 32, 1) 0%, rgba(5,105,0,1) 100%);
+        background: -o-linear-gradient(left, rgba(4, 189, 32, 1) 0%, rgba(5,105,0,1) 100%);
+        background: -ms-linear-gradient(left, rgba(4, 189, 32, 1) 0%, rgba(5,105,0,1) 100%);
+        background: linear-gradient(to right, rgba(4, 189, 32, 1) 0%, rgba(5,105,0,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04bd20', endColorstr='#056900', GradientType=1 );
+        border-radius: 29px 29px 29px 29px;
+        -moz-border-radius: 29px 29px 29px 29px;
+        -webkit-border-radius: 29px 29px 29px 29px;
+        border: 0px solid #000000;
     }
-    &__image{
-        width: 30rem;
-        height: auto;
-        border-radius: 3rem;
-        margin: 2rem;
+}
+.lastfavorites{
+    margin-bottom: 10rem;
+    &__title{
+        font-size: 2rem;
+        font-weight: bold;
+        padding: 1rem 2rem;
+        margin: 0 0 2rem 0 ;
+        color:$baseFontColor;
+        text-shadow: 0.25rem 0.25rem 0.5rem #000000;
+
+        background: rgba(199, 205, 0, 1);
+        background: -moz-linear-gradient(left, rgba(199, 205, 0, 1) 0%, rgba(105,96,0,1) 100%);
+        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(199, 205, 0, 1)), color-stop(100%, rgba(105,96,0,1)));
+        background: -webkit-linear-gradient(left, rgba(199, 205, 0, 1) 0%, rgba(105,96,0,1) 100%);
+        background: -o-linear-gradient(left, rgba(199, 205, 0, 1) 0%, rgba(105,96,0,1) 100%);
+        background: -ms-linear-gradient(left, rgba(199, 205, 0, 1) 0%, rgba(105,96,0,1) 100%);
+        background: linear-gradient(to right, rgba(199, 205, 0, 1) 0%, rgba(105,96,0,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c7cd00', endColorstr='#696000', GradientType=1 );
+        border-radius: 29px 29px 29px 29px;
+        -moz-border-radius: 29px 29px 29px 29px;
+        -webkit-border-radius: 29px 29px 29px 29px;
+        border: 0px solid #000000;
     }
 }
 .list{
-    display:flex;;
-    flex-flow: row;
-    justify-content:flex-start;;
-    &-books{
-        position: relative;
-        width: 20rem;
-        margin: 2rem;
+    display: flex;
+    &-anime{
+    margin-right: 1rem;
+    position: relative;
+    transition: 0.2s;
+        &:hover,&:focus{
+            transform: scale(1.2);
+            transition: 0.2s;
+            -webkit-box-shadow: 10px 8px 24px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: 10px 8px 24px 0px rgba(0,0,0,0.75);
+            box-shadow: 10px 8px 24px 0px rgba(0,0,0,0.75);
+
+        }
         &__title{
-            font-size: 1.5rem;
-            font-weight: bold;
+            width: $mangaimageSize;
             color: $baseFontColor;
+            font-size: 1.5rem;
             position: absolute;
             top: 0;
-            width: 100%;
-            padding: 1rem 0;
             text-align: center;
-            background-color: $BooksTitleBackgroundColor;
+            padding: 0.5rem 0;
+            background: $AnimeTitleBackgroundColor;
+            margin:0 auto;
         }
         &__image{
-            width: 100%;
+            width: $mangaimageSize;
             height: auto;
-        }
-        &__summary{
-            font-size: 1.25rem;
-            color:$mainFontColor;
         }
     }
 }

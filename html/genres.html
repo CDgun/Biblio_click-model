@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <title>MyAnimeList</title>
+        <link rel="stylesheet" href="../css/styles.css" />
+    </head>
+    <body>
+        <header class="header">
+            <div class="header-topbar">
+                <h1 aria-level="1" role="heading" class="hidden">MyAnimeList</h1>
+                <nav>
+                    <h2 role="heading" aria-level="2" class="hidden"> Title & search</h2>
+                    <ul class="header-topbar-menu">
+                        <li>
+                            <a href="../index.html" class="header-topbar-menu__title">My<spanclass="title-span">Anime</span>List</a>
+                        </li>
+                        <li class="header-topbar-menu__search">
+                            <div class="search">
+                                <form action="#" method="get">
+                                    <input type="search" placeholder="Rechercher un anime" name="the_search" class="menu__search">
+                                    <input type="submit" value="SEARCH" class="menu__submit">
+                                </form>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <nav >
+                    <h2 role="heading" aria-level="2"class="hidden"> Main Navigation</h2>
+                    <ul class="nav-menu">
+                        <li class="nav-menu__element nav-menu__element--active">
+                            <a href="../index.html" class="nav-menu__link nav-menu__link">Accueil</a>
+                        </li>
+                        <li class="nav-menu__element">
+                            <a href="./anime.html" class="nav-menu__link">Anime</a>
+                            <ul class="nav-menu-deroulant">
+                                <li class="nav-menu-deroulant__element">
+                                    <a href="./completed.html" class="nav-menu-deroulant__link">Complets</a>
+                                </li>
+                                <li class="nav-menu-deroulant__element">
+                                    <a href="./genres.html" class="nav-menu-deroulant__link">Genres</a>
+                                </li>
+                                <li class="nav-menu-deroulant__element">
+                                    <a href="./studio.html" class="nav-menu-deroulant__link">Studio</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-menu__element">
+                            <a href="./liste.html" class="nav-menu__link">Liste</a>
+                            <ul class="nav-menu-deroulant">
+                                <li class="nav-menu-deroulant__element">
+                                    <a href="./ongoing.html" class="nav-menu-deroulant__link">En cours</a>
+                                </li>
+                                <li class="nav-menu-deroulant__element">
+                                    <a href="./seen.html" class="nav-menu-deroulant__link">Vus</a>
+                                </li>
+                                <li class="nav-menu-deroulant__element">
+                                    <a href="./tosee.html" class="nav-menu-deroulant__link">&Agrave; voir</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-menu__element">
+                            <a href="./favorites.html" class="nav-menu__link">Favoris</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header-connect">
+                <a href="#"class="header-connect__link">se connecter</a>
+                <p class="header-connect__or"> | </p>
+                <a href="#"class="header-connect__link">creer un compte</a>
+            </div>
+        </header>
+
+        <main class="wrapper">
+
+        </main>
+        <footer>
+            <section class="footer">
+                <h1 role="heading" aria-level="1" class="footer__WebTitle"> My<span class="title-span">Anime</span>List </h1>
+                <h3 role="heading" aria-level="3" class="footer__title">Privacy</h3>
+                <h3 role="heading" aria-level="3" class="footer__title">Disclaimer</h3>
+                <h3 role="heading" aria-level="3" class="footer__title">Contact</h3>
+            </section>
+            <div class="subfooter">
+                <p class="subfooter__text">Copyright 2016.HEPL-student Corentin Delarbre.All rights reserved &copy;</p>
+            </div>
+        </footer>
+        <script src="scripts/scripts.js"></script>
+    </body>
+</html>
