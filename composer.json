@@ -1,0 +1,17 @@
+{
+  "name": "corentin/biblio",
+  "authors": [
+    {
+      "name": "Corentin Delarbre"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Controllers\\": "controllers/",
+      "Models\\": "models/"
+    }
+  },
+  "require": {
+    "Illuminate/Container": "^5.2"
+  }
+}

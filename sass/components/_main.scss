@@ -98,6 +98,7 @@
     &-anime{
     margin-right: 1rem;
     position: relative;
+    justify-content: space-around;
     transition: 0.2s;
         &:hover,&:focus{
             transform: scale(1.2);

@@ -138,7 +138,8 @@ html {
   box-sizing: inherit; }
 
 html {
-  background: url("../assets/img/sidebgr1.jpg") no-repeat left, url("../assets/img/sidebgr2.png") no-repeat right 10rem;
+  background: url("../assets/img/sidebgr1.jpg") no-repeat left, url("../assets/img/sidebgr2.jpg") no-repeat right 10rem;
+  background-color: #FEFCF7;
   background-size: 20vw;
   background-attachment: fixed;
   font: normal 62.5%/1.25 "OpenSans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -161,6 +162,7 @@ section {
   width: 60vw;
   margin: 0 20vw;
   padding: 5rem 2rem;
+  min-height: 100vh;
   background-color: white;
   color: black;
   border-width: 0.5rem;
@@ -175,7 +177,7 @@ section {
   width: 100vw;
   position: relative; }
   .header-topbar {
-    background: url("../assets/img/banner.png ") no-repeat;
+    background: url("../assets/img/banner.jpg ") no-repeat;
     background-size: 100vw auto;
     background-position: center; }
     .header-topbar-menu {
@@ -215,10 +217,6 @@ section {
   height: 5rem;
   line-height: 100%;
   background: #000000;
-  background: linear-gradient(top, #636363, #000000);
-  background: -ms-linear-gradient(top, #636363, #000000);
-  background: -webkit-gradient(linear, left top, left bottom, from(#636363), to(#000000));
-  background: -moz-linear-gradient(top, #636363, #000000);
   position: relative;
   z-index: 999; }
 
@@ -436,6 +434,7 @@ html[xmlns] .nav-menu {
   .list-anime {
     margin-right: 1rem;
     position: relative;
+    justify-content: space-around;
     transition: 0.2s; }
     .list-anime:hover, .list-anime:focus {
       transform: scale(1.2);
@@ -553,6 +552,9 @@ html[xmlns] .nav-menu {
     background: linear-gradient(to bottom, #ebe9f9 0%, #d8d0ef 50%, #cec7ec 51%, #c1bfea 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebe9f9', endColorstr='#c1bfea', GradientType=0 );
     margin-bottom: 1rem; }
+  .animecard-story__text {
+   line-height: 1.3rem;
+  }
 
 .animeinfo {
   border-top: 3px solid #d8d0ef;
@@ -590,5 +592,18 @@ footer {
 .subfooter {
   width: 80%;
   margin: 0 10%; }
+.return{
+    color: black;
+}
 
-/*# sourceMappingURL=styles.css.map */
+.studio__elem {
+  list-style-type: decimal;
+  padding: 1rem; }
+.studio__link {
+  color: black;
+  font-weight: bold;
+  padding: 1rem; }
+  .studio__link:hover, .studio__link:focus {
+    background-color: rgba(0, 21, 107, 0.7);
+    border-radius: 1rem;
+    color: white; }
